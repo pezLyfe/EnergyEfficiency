@@ -1,1 +1,2 @@
 Hierarchical clustering to separate the dataset into groups
+Scale the variables to give balance to the clustering results
