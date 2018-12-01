@@ -1,5 +1,17 @@
 Hierarchical clustering to separate the dataset into groups
+
+
+EDA and data cleaning:
+- Convert ints to categorical variable where required
+- Use one-hot encoding to divide up the data set based on glazing area, and glazing area distribution
+- 2 factors with 4 states each
+  - F-test against the zero glazing, zero orientation base case
+  - If there is no significant difference, drop certain cases 
+
+Classification
+- Predict energy efficiency category (high, medium, low) based on glazing area, height, and distribution
+
+
 Scale the variables to give balance to the results
-Use F-test or another statistical test to analyze the data (From Kishore's classes)
 Classification for making predictions on the training set
 Regression to predict values
