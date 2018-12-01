@@ -1,2 +1,5 @@
 Hierarchical clustering to separate the dataset into groups
-Scale the variables to give balance to the clustering results
+Scale the variables to give balance to the results
+Use F-test or another statistical test to analyze the data (From Kishore's classes)
+Classification for making predictions on the training set
+Regression to predict values
